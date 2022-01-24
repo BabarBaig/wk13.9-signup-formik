@@ -1,10 +1,10 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Additionally, the following package was installed:
+Additionally, the Formik package was installed:
 
     npm install formik --save
-Formik makes it very easy to handle form data.  This project also has dynamic error handling.  If a field is left blank, it flags it as being a required field.
+Formik is the most widely-used package for handling form fields and data.  This project also has dynamic error handling.  If a field is left blank, it is flaged as being a required field.
 
 ## Available Scripts
 
