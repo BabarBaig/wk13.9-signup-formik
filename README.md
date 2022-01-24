@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Additionally, the following package was installed:
 
     npm install formik --save
+Formik makes it very easy to handle form data
 
 ## Available Scripts
 
