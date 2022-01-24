@@ -13,9 +13,9 @@ function App() {
     },
     validate: values => {
       let errors = {}
-      if (!values.name)  errors.name  = 'Required'
-      if (!values.email) errors.email = 'Required'
-      if (!values.pswd)  errors.pswd  = 'Required'
+      if (!values.name)  errors.name  = 'Name is required!'
+      if (!values.email) errors.email = 'Email is required!'
+      if (!values.pswd)  errors.pswd  = 'Password is required!'
       return errors
     }
   })
@@ -31,7 +31,7 @@ function App() {
         {formik.errors.email ? <div style={{color:'red'}}>{formik.errors.email}</div>: null}
         <div>Password</div>
         <input name="pswd"  type="text" onChange={formik.handleChange} value={formik.values.pswd} />
-        {formik.errors.pswd  ? <div style={{color:'red'}}>{formik.errors.pswd}</div>: null}
+        {formik.errors.pswd  ? <div style={{color:'red'}}>{formik.errors.pswd}</div>: <div></div>}
         <button type="submit">Submit</button>
       </form>
     </div>
