@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Additionally, the following package was installed:
+
+    npm install formik --save
 
 ## Available Scripts
 
