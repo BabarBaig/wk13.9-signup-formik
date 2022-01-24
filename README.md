@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Additionally, the following package was installed:
 
     npm install formik --save
-Formik makes it very easy to handle form data
+Formik makes it very easy to handle form data.  This project also has dynamic error handling.  If a field is left blank, it flags it as being a required field.
 
 ## Available Scripts
 
